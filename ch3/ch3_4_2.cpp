@@ -6,19 +6,19 @@ int main()
 	string str1,str2;
 	getline(cin,str1);
 	getline(cin,str2);
-	if(str1.size() == str2.size())
+	auto l1 = str1.size();
+	auto l2 = str2.size();
+	if(l1 == l2)
 	{
 		cout<<"两个字符串长度是相同的"<<endl;
 
 	}
-	else
+	else if(l1 > l2)
 	{
-		if(str1.size() > str2.size())
-		{
-			cout<<str1<<"长"<<endl;
-		}else{
-			cout<<str2<<"长"<<endl;
-		}
+		cout<<str1<<"长"<<endl;
+	}else{
+	   	cout<<str2<<"长"<<endl;
 	}
+	
 	return 0;
 }
