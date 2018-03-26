@@ -1,4 +1,4 @@
-//输入一组詞，将word改为大写，然后输出
+//输入一组詞，将word改为大写，然后输出,遇到q结束输入
 #include <iostream>
 #include <vector>
 #include <string>
