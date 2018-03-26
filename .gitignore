@@ -34,3 +34,6 @@ build-Debug/
  
 #The user local envirment file
 *.user
+
+#other file
+*~
